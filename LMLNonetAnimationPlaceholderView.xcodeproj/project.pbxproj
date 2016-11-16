@@ -14,6 +14,8 @@
 		B323A2571DDC49BE00FA0FD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B323A2551DDC49BE00FA0FD7 /* LaunchScreen.storyboard */; };
 		B323A2621DDC49BE00FA0FD7 /* LMLNonetAnimationPlaceholderViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B323A2611DDC49BE00FA0FD7 /* LMLNonetAnimationPlaceholderViewTests.swift */; };
 		B323A26D1DDC49BE00FA0FD7 /* LMLNonetAnimationPlaceholderViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B323A26C1DDC49BE00FA0FD7 /* LMLNonetAnimationPlaceholderViewUITests.swift */; };
+		B323A2801DDC4A8500FA0FD7 /* LMLNonetAnimationPlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B323A27F1DDC4A8500FA0FD7 /* LMLNonetAnimationPlaceholderView.swift */; };
+		B35E7AFF1DDC571F009C6374 /* LMLNonetAnimationPlaceholderView.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B35E7AFE1DDC571F009C6374 /* LMLNonetAnimationPlaceholderView.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		B323A2681DDC49BE00FA0FD7 /* LMLNonetAnimationPlaceholderViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LMLNonetAnimationPlaceholderViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B323A26C1DDC49BE00FA0FD7 /* LMLNonetAnimationPlaceholderViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMLNonetAnimationPlaceholderViewUITests.swift; sourceTree = "<group>"; };
 		B323A26E1DDC49BE00FA0FD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B323A27F1DDC4A8500FA0FD7 /* LMLNonetAnimationPlaceholderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMLNonetAnimationPlaceholderView.swift; sourceTree = "<group>"; };
+		B35E7AFE1DDC571F009C6374 /* LMLNonetAnimationPlaceholderView.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = LMLNonetAnimationPlaceholderView.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 		B323A24B1DDC49BE00FA0FD7 /* LMLNonetAnimationPlaceholderView */ = {
 			isa = PBXGroup;
 			children = (
+				B323A27E1DDC4A6100FA0FD7 /* LMLNonetAnimationPlaceholderView */,
 				B323A24C1DDC49BE00FA0FD7 /* AppDelegate.swift */,
 				B323A24E1DDC49BE00FA0FD7 /* ViewController.swift */,
 				B323A2501DDC49BE00FA0FD7 /* Main.storyboard */,
@@ -123,6 +128,15 @@
 				B323A26E1DDC49BE00FA0FD7 /* Info.plist */,
 			);
 			path = LMLNonetAnimationPlaceholderViewUITests;
+			sourceTree = "<group>";
+		};
+		B323A27E1DDC4A6100FA0FD7 /* LMLNonetAnimationPlaceholderView */ = {
+			isa = PBXGroup;
+			children = (
+				B323A27F1DDC4A8500FA0FD7 /* LMLNonetAnimationPlaceholderView.swift */,
+				B35E7AFE1DDC571F009C6374 /* LMLNonetAnimationPlaceholderView.xcassets */,
+			);
+			path = LMLNonetAnimationPlaceholderView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +249,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B35E7AFF1DDC571F009C6374 /* LMLNonetAnimationPlaceholderView.xcassets in Resources */,
 				B323A2571DDC49BE00FA0FD7 /* LaunchScreen.storyboard in Resources */,
 				B323A2541DDC49BE00FA0FD7 /* Assets.xcassets in Resources */,
 				B323A2521DDC49BE00FA0FD7 /* Main.storyboard in Resources */,
@@ -264,6 +279,7 @@
 			files = (
 				B323A24F1DDC49BE00FA0FD7 /* ViewController.swift in Sources */,
 				B323A24D1DDC49BE00FA0FD7 /* AppDelegate.swift in Sources */,
+				B323A2801DDC4A8500FA0FD7 /* LMLNonetAnimationPlaceholderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +530,7 @@
 				B323A2731DDC49BE00FA0FD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B323A2741DDC49BE00FA0FD7 /* Build configuration list for PBXNativeTarget "LMLNonetAnimationPlaceholderViewTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +539,7 @@
 				B323A2761DDC49BE00FA0FD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B323A2771DDC49BE00FA0FD7 /* Build configuration list for PBXNativeTarget "LMLNonetAnimationPlaceholderViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +548,7 @@
 				B323A2791DDC49BE00FA0FD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
