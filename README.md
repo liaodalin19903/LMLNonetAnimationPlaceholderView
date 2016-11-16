@@ -8,7 +8,7 @@ LMLNonetAnimationPlaceholderView
 
 效果展示图
 
-[img](https://github.com/liaodalin19903/LMLNonetAnimationPlaceholderView/blob/master/LMLNonetAnimationPlaceholderViewGIF.gif)
+https://github.com/liaodalin19903/LMLNonetAnimationPlaceholderView/blob/master/LMLNonetAnimationPlaceholderViewGIF.gif
 
 
 
